@@ -1,5 +1,6 @@
 library(haven)
 library(dplyr)
+library(ggplot2)
 
 dat = read_sav("./Data/private_landlord_survey/spss/epls_2018_forarchive.sav")
 
@@ -111,5 +112,94 @@ dat = dat %>% # Select cols
 
 low_ehs = dat %>% filter((EPCEFG==1) | (EPCEFG==3))
 
+cols = c("FutRLv1",
+        "FutRLv2",
+        "FutRLv3",
+        "FutRLv4",
+        "FutRLv5",
+        "FutRLv6")
+
+exp = dat
+
 dat %>%
-  summarise_all()
+  group_by(LLExp) %>%
+  summarise(percent = n()/nrow(exp)*100)
+
+
+# how many are reducing?
+reducing = dat %>% filter((FutProp==2) | (FutProp==4))
+
+nrow(reducing)/nrow(dat)*100
+
+# For those reducing the number of properties, why?
+
+result = reducing %>%
+  select(FutRLv1,
+         FutRLv2, 
+         FutRLv3, 
+         FutRLv4, 
+         FutRLv5) %>%
+  summarise(Financial = sum(FutRLv1)/nrow(reducing)*100,
+            Personal = sum(FutRLv2)/nrow(reducing)*100,
+            Legislative = sum(FutRLv3)/nrow(reducing)*100,
+            Other = sum(FutRLv4)/nrow(reducing)*100,
+            None = sum(FutRLv5)/nrow(reducing)*100)
+
+result = as.matrix(result)
+b = barplot(result, las=2)
+text(
+  x = b,
+  y = result,
+  labels = round(result, 2),
+  pos = 3,
+  srt = 90,
+  offset = 1.5
+)
+
+# how many are increasing?
+
+increasing = dat %>% filter((FutProp==1))
+
+nrow(increasing)/nrow(dat)
+
+# The same?
+
+same = dat %>% filter((FutProp==3))
+
+nrow(same)/nrow(dat)
+
+
+# Where are LLs getting info from?
+
+info = dat %>%
+  select(LLInfo01, # Where info: Letting Agent
+         LLInfo02, # Where info: LL membership ass. or org
+         LLInfo03, # Where info: Online landlord forums/websites
+         LLInfo04, # Where info: Gov't websites
+         LLInfo05, # Where info: Family/friends
+         LLInfo06, # Where info: Online media
+         LLInfo07, # Where info: TV
+         LLInfo08, # Where info: Radio
+         LLInfo09  # Where info: Newspapers
+         ) %>%
+  summarise("Letting Agent" = sum(LLInfo01)/nrow(dat)*100, # Where info: Letting Agent
+            "LL Membership Assoc." = sum(LLInfo02)/nrow(dat)*100, # Where info: LL membership ass. or org
+            "Online landlord forums/websites" = sum(LLInfo03)/nrow(dat)*100, # Where info: Online landlord forums/websites
+            "Gov't websites" = sum(LLInfo04)/nrow(dat)*100, # Where info: Gov't websites
+            "Family/friends" = sum(LLInfo05)/nrow(dat)*100, # Where info: Family/friends
+            "Online media" = sum(LLInfo06)/nrow(dat)*100, # Where info: Online media
+            "TV" = sum(LLInfo07)/nrow(dat)*100, # Where info: TV
+            "Radio" = sum(LLInfo08)/nrow(dat)*100, # Where info: Radio
+            "Newspapers" = sum(LLInfo09)/nrow(dat)*100)  # Where info: Newspapers
+
+info = as.matrix(info)
+par(mar = c(15, 4, 4, 2) + 0.1)
+b = barplot(info, ylab="Percent",las=2)
+text(
+  x = b,
+  y = info,
+  labels = round(info, 2),
+  pos = 3,
+  srt = 90,
+  offset = 1.5
+)
