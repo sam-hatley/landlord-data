@@ -11,6 +11,7 @@ Source: [English Private Landlord Survey 2021: main report](https://www.gov.uk/g
 
 1. 20% of LL's from 2018 were reducing the number of properties held.
   - Their reasoning was:
+  
 | Financial | Personal | Legislative | Other | None |
 | - | - | - | - | - |
 | 26.0% | 37.4% | 66.1% | 18.4% | 0.67% |
