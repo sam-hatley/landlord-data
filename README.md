@@ -9,11 +9,17 @@ Source: [English Private Landlord Survey 2021: main report](https://www.gov.uk/g
 
 ## Insights
 
-1. 20% of LL's from 2018 were reducing the number of properties held.
-  - Their reasoning was:
-  
-| Financial | Personal | Legislative | Other | None |
-| - | - | - | - | - |
-| 26.0% | 37.4% | 66.1% | 18.4% | 0.67% |
+1. 20% of LLs from 2018 were reducing the number of properties held. 66.1 % of those were doing so because of legislative changes:
+
+
+![Reasons_reduce](./img/plot_reasons_reduce.png)
+
+In contrast, 12% of LLs were increasing their portfolio, while 52% were making no changes.
+
+2. 62.9% of LLs are getting information from government websites:
+
+![LL_Info](./img/plot_ll_info.png)
+
 
 # Target Market Demographics
+
