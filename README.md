@@ -23,3 +23,16 @@ In contrast, 12% of LLs were increasing their portfolio, while 52% were making n
 
 # Target Market Demographics
 
+Defining target market as:
+- Has properties rated E, F, or G
+- Has less than 10 properties
+
+1. This market makes up 18% of all LLs
+    - LLs with properties rated E, F or G make up 29% of LLs
+2. 47 % of these LLs have 2-4 properties
+    - 29% have 5-9
+    - 24% have 1 only
+3. 32% of these LLs were unaware of EPC regs, compared to 30% of LLs
+4. As a rough estimate, each LL has a portfolio size of about £912,550 and a current LTV of 28%
+    - 40% of these LLs have no debt
+    - Of LLs that have debt, their LTV is around 47%
