@@ -21,7 +21,7 @@ In contrast, 12% of LLs were increasing their portfolio, while 52% were making n
 ![LL_Info](./img/plot_ll_info.png)
 
 
-# Target Market Demographics
+# Target Market
 
 Defining target market as:
 - Has properties rated E, F, or G
@@ -36,3 +36,7 @@ Defining target market as:
 4. As a rough estimate, each LL has a portfolio size of about £912,550 and a current LTV of 28%
     - 40% of these LLs have no debt
     - Of LLs that have debt, their LTV is around 47%
+5. These LLs own between 7 and 10% of privately let properties, which is about 12% of total privately let property value
+    - This comes out to between 323,682 and 430,098 individual properties
+    - With a proposed cap of £10,000 per property, this suggests a target market size of £3.2 to £4.3 Bn, most likely around £3.6 Bn
+    - At an average cost of £30,000, target market size is between £9.7 and £12.9 Bn, most likely £10.8 Bn
