@@ -49,5 +49,5 @@ Defining target market as:
 | SAM | 34.0%** | 1.5 m | £15.1 Bn | £45.2 Bn |
 | SOM | 8.1%** | 359,154 | £3.6 Bn | £10.8 Bn |
 
-*\*of all dwellings*<br>
-*\*\*of privately let dwellings*
+*\*of all dwellings (24.7 m)*<br>
+*\*\*of privately let dwellings (4.43 m)*
