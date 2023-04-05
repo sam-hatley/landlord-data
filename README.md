@@ -46,8 +46,8 @@ Defining target market as:
 | Measure | Percentage | Properties | @ £10k | @ £30k |
 |--------|------------|-------|--------|--------|
 | TAM | 44.0%* | 10.9 m | £108.7 Bn | £326 Bn |
-| SAM | 34.0%** | 1.6 m | £15.7 Bn | £47.2 Bn |
-| SOM | 8.1%** | 373,410 | £3.7 Bn | £11.2 Bn |
+| SAM | 36.8%** | 1.7 m | £16.3 Bn | £49.0 Bn |
+| SOM | 8.8%** | 403,375 | £4.0 Bn | £12.1 Bn |
 
 *\*of all dwellings (24.7 m)*<br>
 *\*\*of privately let dwellings (4.61 m)*
