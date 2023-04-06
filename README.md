@@ -54,7 +54,7 @@ Defining target market as:
 
 ## TM Communications
 
-Percentages of channel useage in TM:
+Percentages of channel usage in TM:
 
 ![Communications Percentages](./img/tm_comms.png)
 
