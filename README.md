@@ -51,3 +51,7 @@ Defining target market as:
 
 *\*of all dwellings (24.7 m)*<br>
 *\*\*of privately let dwellings (4.61 m)*
+
+## Communications Correlation
+
+![Communications Correlations](./img/comm_corr.png)
