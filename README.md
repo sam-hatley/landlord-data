@@ -55,8 +55,10 @@ Defining target market as:
 ## TM Communications
 
 Percentages of channel useage in TM:
+
 ![Communications Percentages](./img/tm_comms.png)
 
 
 Correlation between channel usage in TM:
+
 ![Communications Correlations](./img/comm_corr.png)
