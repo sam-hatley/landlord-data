@@ -50,8 +50,8 @@ Defining target market as:
 | **Inherited it** | **4.8%** | **11.5%** |
 | Other | 4.8% | 5.9% |
 | Received it as a gift | 2.7% | 2.3% |
-| Built it to live in | 1% | 1.3% |
-| Built it with the intention of letting it out | 0.8% | 1% |
+| Built it to live in | 1.0% | 1.3% |
+| Built it with the intention of letting it out | 0.8% | 1.0% |
 | Acquired the organisation that owned it | 0.3% | 0.5% |
 | Bought it through the council Right to Buy | 0.3% | 0.8% |
 
