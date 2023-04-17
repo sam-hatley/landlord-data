@@ -40,7 +40,7 @@ Defining target market as:
     - This comes out to between 323,682 and 430,098 individual properties
     - With a proposed cap of £10,000 per property, this suggests a target market size of £3.2 to £4.3 Bn, most likely around £3.6 Bn
     - At an average cost of £30,000, target market size is between £9.7 and £12.9 Bn, most likely £10.8 Bn
-6. 59% of LLs in this market do not use a letting agent for any service.
+6. 54% of LLs in this market do not use a letting agent for any service.
 7. 62% of LLs in this market deliberately purchased the property to let:
 
 | Purchase Reason | Debt | No Debt |
