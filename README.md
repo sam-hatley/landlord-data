@@ -43,6 +43,8 @@ Defining target market as:
 6. 54% of LLs in this market do not use a letting agent for any service.
 7. 62% of LLs in this market deliberately purchased the property to let:
 
+<div align="center">
+
 | Purchase Reason | Debt | No Debt |
 | - | - | - |
 | Bought it with the intention of letting it out | 62.0 % | 61.6% |
@@ -55,6 +57,7 @@ Defining target market as:
 | Acquired the organisation that owned it | 0.3% | 0.5% |
 | Bought it through the council Right to Buy | 0.3% | 0.8% |
 
+</div>
 
 
 ## TAM, SAM, SOM
